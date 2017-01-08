@@ -41,7 +41,7 @@
     self.presenter.interactor = self.mockInteractor;
     self.presenter.router = self.mockRouter;
     self.presenter.view = self.mockView;
-   
+}
 
 - (void)tearDown {
     self.presenter = nil;

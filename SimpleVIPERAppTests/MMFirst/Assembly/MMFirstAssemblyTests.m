@@ -31,7 +31,7 @@
     [super setUp];
 
     self.assembly = [[MMFirstAssembly alloc] init];
-    [self.assembly activate];
+   // [self.assembly activated];
 }
 
 - (void)tearDown {

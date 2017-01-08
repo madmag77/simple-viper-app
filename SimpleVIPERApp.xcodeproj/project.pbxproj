@@ -11,7 +11,6 @@
 		4E1230440EFE44B5C77363F0 /* MMFirstViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F930C4E9D2E1E3A67DB791 /* MMFirstViewControllerTests.m */; };
 		58DD0715D925ACC97A1376CF /* MMFirstPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED112F7D0C6B2CCF4A9936 /* MMFirstPresenterTests.m */; };
 		6D9C799DD2142AD126BE0CA3 /* MMFirstInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A487A79D21EAE761A1960B /* MMFirstInteractorTests.m */; };
-		8642CEB304E6F21C8DACC8BD /* MMFirstAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */; };
 		9CE344B0BD56A320B801CF72 /* Pods_SimpleVIPERAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E701450396605DF48E9EA875 /* Pods_SimpleVIPERAppTests.framework */; };
 		B5E96A0131165D2AEC420579 /* MMFirstInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7016D9C3E088C27C8B7B6F53 /* MMFirstInteractor.m */; };
 		BAAB2B0DFB6270D939460451 /* MMFirstRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F898760F0D9A4A4F2A25450B /* MMFirstRouterTests.m */; };
@@ -47,12 +46,10 @@
 		257AC1403878347B15D1B70D /* MMFirstPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstPresenter.h; sourceTree = "<group>"; };
 		288FC677DC6F31C98EB0BD98 /* MMFirstInteractor_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractor_Testable.h; sourceTree = "<group>"; };
 		2B131C64ED96639BB90E8B38 /* Pods-SimpleVIPERApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERApp/Pods-SimpleVIPERApp.release.xcconfig"; sourceTree = "<group>"; };
-		396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstAssemblyTests.m; sourceTree = "<group>"; };
 		41A5357FFBFE0DB6216D7FD7 /* MMFirstModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstModuleInput.h; sourceTree = "<group>"; };
 		4BB4F83AA0661F01A200196B /* MMFirstPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstPresenter.m; sourceTree = "<group>"; };
 		6258AB8020F537132CBB9A90 /* MMFirstInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractorOutput.h; sourceTree = "<group>"; };
 		7016D9C3E088C27C8B7B6F53 /* MMFirstInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstInteractor.m; sourceTree = "<group>"; };
-		81814CE9CECB0DB7589282D9 /* MMFirstAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstAssembly_Testable.h; sourceTree = "<group>"; };
 		9F58D910985387C818C7E1E9 /* MMFirstAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstAssembly.m; sourceTree = "<group>"; };
 		A07C19234F13E6A4EC891D8F /* MMFirstViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstViewInput.h; sourceTree = "<group>"; };
 		A9F2D19E5B3FEEF281DEBDF3 /* Pods-SimpleVIPERAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERAppTests/Pods-SimpleVIPERAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,15 +180,6 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		975E8923FB246B59CD7A794B /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */,
-				81814CE9CECB0DB7589282D9 /* MMFirstAssembly_Testable.h */,
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
 		B4A416138A5BE216C777CF7F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,7 +213,6 @@
 		DF7E9F04FBA460DC7DFA120E /* MMFirst */ = {
 			isa = PBXGroup;
 			children = (
-				975E8923FB246B59CD7A794B /* Assembly */,
 				5CAA59C20479571EABAF59CD /* View */,
 				7C754804F36A7B5ABCD09DAD /* Presenter */,
 				BE3F62D2DBFF8B0FA372E07E /* Interactor */,
@@ -530,7 +517,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0FCEA41E21F98500FCDEC7 /* SimpleVIPERAppTests.m in Sources */,
-				8642CEB304E6F21C8DACC8BD /* MMFirstAssemblyTests.m in Sources */,
 				4E1230440EFE44B5C77363F0 /* MMFirstViewControllerTests.m in Sources */,
 				58DD0715D925ACC97A1376CF /* MMFirstPresenterTests.m in Sources */,
 				6D9C799DD2142AD126BE0CA3 /* MMFirstInteractorTests.m in Sources */,
