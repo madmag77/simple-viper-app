@@ -24,7 +24,7 @@
 		EB0FCE991E21F98500FCDEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0FCE971E21F98500FCDEC7 /* LaunchScreen.storyboard */; };
 		EB0FCEA41E21F98500FCDEC7 /* SimpleVIPERAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEA31E21F98500FCDEC7 /* SimpleVIPERAppTests.m */; };
 		EB0FCEB51E22027200FCDEC7 /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEB41E22027200FCDEC7 /* ApplicationAssembly.m */; };
-		EB0FCEB71E22055800FCDEC7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEB61E22055800FCDEC7 /* README.md */; };
+		EB0FCEB91E225C0500FCDEC7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEB81E225C0500FCDEC7 /* README.md */; };
 		F1663E6405BDBA1453706A0B /* MMFirstRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1294F87ECC12EB384F0F7CD /* MMFirstRouter.m */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +78,7 @@
 		EB0FCEA51E21F98500FCDEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0FCEB31E22027200FCDEC7 /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
 		EB0FCEB41E22027200FCDEC7 /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
-		EB0FCEB61E22055800FCDEC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB0FCEB81E225C0500FCDEC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EE388A10DD39D359819F5AB0 /* MMFirstInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractor.h; sourceTree = "<group>"; };
 		F4789C5E1F5FF25B63E211FD /* MMFirstViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstViewController.m; sourceTree = "<group>"; };
 		F898760F0D9A4A4F2A25450B /* MMFirstRouterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstRouterTests.m; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		EB0FCE891E21F98500FCDEC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB0FCEB61E22055800FCDEC7 /* README.md */,
+				EB0FCEB81E225C0500FCDEC7 /* README.md */,
 				EB0FCE8A1E21F98500FCDEC7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -506,7 +506,7 @@
 				D6B3150F4DBFD8E863C8F530 /* MMFirstViewController.m in Sources */,
 				EB0FCEB51E22027200FCDEC7 /* ApplicationAssembly.m in Sources */,
 				345CE38929D2C6B7F18DE5F9 /* MMFirstPresenter.m in Sources */,
-				EB0FCEB71E22055800FCDEC7 /* README.md in Sources */,
+				EB0FCEB91E225C0500FCDEC7 /* README.md in Sources */,
 				B5E96A0131165D2AEC420579 /* MMFirstInteractor.m in Sources */,
 				F1663E6405BDBA1453706A0B /* MMFirstRouter.m in Sources */,
 			);
