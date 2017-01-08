@@ -1,0 +1,32 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}TableViewCell.h"
+#import "UIFabric.h"
+#import "Masonry.h"
+
+@implementation {{ prefix }}{{ module_info.name }}TableViewCell
+#pragma mark - Методы RETableViewCell
++ (CGFloat)heightWithItem:(RETableViewItem *)item tableViewManager:(RETableViewManager *)tableViewManager {
+    return 44;
+}
+
+- (void)cellDidLoad
+{
+    [super cellDidLoad];
+    [self createViewElements];
+    
+}
+
+- (void)cellWillAppear
+{
+    [super cellWillAppear];
+}
+
+#pragma mark - Методы обработки событий от визуальных элементов
+
+#pragma mark - Вспомогательные функции
+- (void) createViewElements {
+    self.background = [UIFabric imageViewWithImageName:@"backgound" andContentMode:UIViewContentModeScaleAspectFill iconMode:false andSuperView:self];
+
+}
+@end

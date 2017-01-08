@@ -1,0 +1,8 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+
+@protocol {{ prefix }}{{ module_info.name }}InteractorOutput <NSObject>
+-(void) progressShow;
+-(void) progressDismiss;
+@end

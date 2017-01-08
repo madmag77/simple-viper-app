@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345CE38929D2C6B7F18DE5F9 /* MMFirstPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4F83AA0661F01A200196B /* MMFirstPresenter.m */; };
+		4E1230440EFE44B5C77363F0 /* MMFirstViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F930C4E9D2E1E3A67DB791 /* MMFirstViewControllerTests.m */; };
+		58DD0715D925ACC97A1376CF /* MMFirstPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED112F7D0C6B2CCF4A9936 /* MMFirstPresenterTests.m */; };
+		6D9C799DD2142AD126BE0CA3 /* MMFirstInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A487A79D21EAE761A1960B /* MMFirstInteractorTests.m */; };
+		8642CEB304E6F21C8DACC8BD /* MMFirstAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */; };
+		9CE344B0BD56A320B801CF72 /* Pods_SimpleVIPERAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E701450396605DF48E9EA875 /* Pods_SimpleVIPERAppTests.framework */; };
+		B5E96A0131165D2AEC420579 /* MMFirstInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7016D9C3E088C27C8B7B6F53 /* MMFirstInteractor.m */; };
+		BAAB2B0DFB6270D939460451 /* MMFirstRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F898760F0D9A4A4F2A25450B /* MMFirstRouterTests.m */; };
+		BD2DA5C7B880AF29D687D7A3 /* Pods_SimpleVIPERApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80BE5A43F2EA0D2903754E7 /* Pods_SimpleVIPERApp.framework */; };
+		D6B3150F4DBFD8E863C8F530 /* MMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4789C5E1F5FF25B63E211FD /* MMFirstViewController.m */; };
+		EA08E7A7FB51F20C0100AF37 /* MMFirstAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D910985387C818C7E1E9 /* MMFirstAssembly.m */; };
+		EB0FCE8B1E21F98500FCDEC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCE8A1E21F98500FCDEC7 /* main.m */; };
+		EB0FCE8E1E21F98500FCDEC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCE8D1E21F98500FCDEC7 /* AppDelegate.m */; };
+		EB0FCE941E21F98500FCDEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0FCE921E21F98500FCDEC7 /* Main.storyboard */; };
+		EB0FCE961E21F98500FCDEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0FCE951E21F98500FCDEC7 /* Assets.xcassets */; };
+		EB0FCE991E21F98500FCDEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0FCE971E21F98500FCDEC7 /* LaunchScreen.storyboard */; };
+		EB0FCEA41E21F98500FCDEC7 /* SimpleVIPERAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEA31E21F98500FCDEC7 /* SimpleVIPERAppTests.m */; };
+		EB0FCEB51E22027200FCDEC7 /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEB41E22027200FCDEC7 /* ApplicationAssembly.m */; };
+		EB0FCEB71E22055800FCDEC7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCEB61E22055800FCDEC7 /* README.md */; };
+		F1663E6405BDBA1453706A0B /* MMFirstRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1294F87ECC12EB384F0F7CD /* MMFirstRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0FCEA01E21F98500FCDEC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0FCE7E1E21F98500FCDEC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0FCE851E21F98500FCDEC7;
+			remoteInfo = SimpleVIPERApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D794A4115760B765F67AC73 /* Pods-SimpleVIPERAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERAppTests/Pods-SimpleVIPERAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11ED112F7D0C6B2CCF4A9936 /* MMFirstPresenterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstPresenterTests.m; sourceTree = "<group>"; };
+		1DA8A60575301B860A93DC6F /* MMFirstInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractorInput.h; sourceTree = "<group>"; };
+		2490FABAE58EC23FC1377555 /* MMFirstRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstRouterInput.h; sourceTree = "<group>"; };
+		257AC1403878347B15D1B70D /* MMFirstPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstPresenter.h; sourceTree = "<group>"; };
+		288FC677DC6F31C98EB0BD98 /* MMFirstInteractor_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractor_Testable.h; sourceTree = "<group>"; };
+		2B131C64ED96639BB90E8B38 /* Pods-SimpleVIPERApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERApp/Pods-SimpleVIPERApp.release.xcconfig"; sourceTree = "<group>"; };
+		396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstAssemblyTests.m; sourceTree = "<group>"; };
+		41A5357FFBFE0DB6216D7FD7 /* MMFirstModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstModuleInput.h; sourceTree = "<group>"; };
+		4BB4F83AA0661F01A200196B /* MMFirstPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstPresenter.m; sourceTree = "<group>"; };
+		6258AB8020F537132CBB9A90 /* MMFirstInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractorOutput.h; sourceTree = "<group>"; };
+		7016D9C3E088C27C8B7B6F53 /* MMFirstInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstInteractor.m; sourceTree = "<group>"; };
+		81814CE9CECB0DB7589282D9 /* MMFirstAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstAssembly_Testable.h; sourceTree = "<group>"; };
+		9F58D910985387C818C7E1E9 /* MMFirstAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstAssembly.m; sourceTree = "<group>"; };
+		A07C19234F13E6A4EC891D8F /* MMFirstViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstViewInput.h; sourceTree = "<group>"; };
+		A9F2D19E5B3FEEF281DEBDF3 /* Pods-SimpleVIPERAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERAppTests/Pods-SimpleVIPERAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1294F87ECC12EB384F0F7CD /* MMFirstRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstRouter.m; sourceTree = "<group>"; };
+		B2C8B54117E5955C460CF00E /* MMFirstPresenter_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstPresenter_Testable.h; sourceTree = "<group>"; };
+		B7F930C4E9D2E1E3A67DB791 /* MMFirstViewControllerTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstViewControllerTests.m; sourceTree = "<group>"; };
+		B80BE5A43F2EA0D2903754E7 /* Pods_SimpleVIPERApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleVIPERApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8374059ACB2645B5ABD7A4B /* Pods-SimpleVIPERApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVIPERApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVIPERApp/Pods-SimpleVIPERApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D2CE3C0B0125A11832DBD1A8 /* MMFirstAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstAssembly.h; sourceTree = "<group>"; };
+		D79FE7E47B0809ECCACFBB94 /* MMFirstViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstViewOutput.h; sourceTree = "<group>"; };
+		DCA55483CF6DC97831807EA1 /* MMFirstViewController_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstViewController_Testable.h; sourceTree = "<group>"; };
+		DF0EE4FF6C0EEE36DE0BEC7F /* MMFirstRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstRouter.h; sourceTree = "<group>"; };
+		E6648DE9A5E58090047D9AC4 /* MMFirstViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstViewController.h; sourceTree = "<group>"; };
+		E6A487A79D21EAE761A1960B /* MMFirstInteractorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstInteractorTests.m; sourceTree = "<group>"; };
+		E701450396605DF48E9EA875 /* Pods_SimpleVIPERAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleVIPERAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0FCE861E21F98500FCDEC7 /* SimpleVIPERApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVIPERApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0FCE8A1E21F98500FCDEC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB0FCE8C1E21F98500FCDEC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB0FCE8D1E21F98500FCDEC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB0FCE931E21F98500FCDEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0FCE951E21F98500FCDEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0FCE981E21F98500FCDEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB0FCE9A1E21F98500FCDEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0FCE9F1E21F98500FCDEC7 /* SimpleVIPERAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVIPERAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0FCEA31E21F98500FCDEC7 /* SimpleVIPERAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVIPERAppTests.m; sourceTree = "<group>"; };
+		EB0FCEA51E21F98500FCDEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0FCEB31E22027200FCDEC7 /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		EB0FCEB41E22027200FCDEC7 /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		EB0FCEB61E22055800FCDEC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE388A10DD39D359819F5AB0 /* MMFirstInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMFirstInteractor.h; sourceTree = "<group>"; };
+		F4789C5E1F5FF25B63E211FD /* MMFirstViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstViewController.m; sourceTree = "<group>"; };
+		F898760F0D9A4A4F2A25450B /* MMFirstRouterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMFirstRouterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0FCE831E21F98500FCDEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2DA5C7B880AF29D687D7A3 /* Pods_SimpleVIPERApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0FCE9C1E21F98500FCDEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE344B0BD56A320B801CF72 /* Pods_SimpleVIPERAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB5A36D5D5148E059529149 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2490FABAE58EC23FC1377555 /* MMFirstRouterInput.h */,
+				DF0EE4FF6C0EEE36DE0BEC7F /* MMFirstRouter.h */,
+				B1294F87ECC12EB384F0F7CD /* MMFirstRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3F12CB89C86A9891D6C1450A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8374059ACB2645B5ABD7A4B /* Pods-SimpleVIPERApp.debug.xcconfig */,
+				2B131C64ED96639BB90E8B38 /* Pods-SimpleVIPERApp.release.xcconfig */,
+				0D794A4115760B765F67AC73 /* Pods-SimpleVIPERAppTests.debug.xcconfig */,
+				A9F2D19E5B3FEEF281DEBDF3 /* Pods-SimpleVIPERAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41B8CF4B6E66F4D484D1556D /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				ED90EB34962DD965362B1918 /* MMFirst */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		5A681CE0E390F0C567A60700 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1DA8A60575301B860A93DC6F /* MMFirstInteractorInput.h */,
+				6258AB8020F537132CBB9A90 /* MMFirstInteractorOutput.h */,
+				EE388A10DD39D359819F5AB0 /* MMFirstInteractor.h */,
+				7016D9C3E088C27C8B7B6F53 /* MMFirstInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5CAA59C20479571EABAF59CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7F930C4E9D2E1E3A67DB791 /* MMFirstViewControllerTests.m */,
+				DCA55483CF6DC97831807EA1 /* MMFirstViewController_Testable.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6886E0D5B84DD08B9AB8FC39 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE3C0B0125A11832DBD1A8 /* MMFirstAssembly.h */,
+				9F58D910985387C818C7E1E9 /* MMFirstAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		71B274E21A35C646F5C9B69C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80BE5A43F2EA0D2903754E7 /* Pods_SimpleVIPERApp.framework */,
+				E701450396605DF48E9EA875 /* Pods_SimpleVIPERAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C754804F36A7B5ABCD09DAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				11ED112F7D0C6B2CCF4A9936 /* MMFirstPresenterTests.m */,
+				B2C8B54117E5955C460CF00E /* MMFirstPresenter_Testable.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		975E8923FB246B59CD7A794B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				396D7010AD9209B48E78B0F8 /* MMFirstAssemblyTests.m */,
+				81814CE9CECB0DB7589282D9 /* MMFirstAssembly_Testable.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		B4A416138A5BE216C777CF7F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				41A5357FFBFE0DB6216D7FD7 /* MMFirstModuleInput.h */,
+				257AC1403878347B15D1B70D /* MMFirstPresenter.h */,
+				4BB4F83AA0661F01A200196B /* MMFirstPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE3F62D2DBFF8B0FA372E07E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6A487A79D21EAE761A1960B /* MMFirstInteractorTests.m */,
+				288FC677DC6F31C98EB0BD98 /* MMFirstInteractor_Testable.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C0CE3A21EB732031B0B0AA22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A07C19234F13E6A4EC891D8F /* MMFirstViewInput.h */,
+				D79FE7E47B0809ECCACFBB94 /* MMFirstViewOutput.h */,
+				E6648DE9A5E58090047D9AC4 /* MMFirstViewController.h */,
+				F4789C5E1F5FF25B63E211FD /* MMFirstViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF7E9F04FBA460DC7DFA120E /* MMFirst */ = {
+			isa = PBXGroup;
+			children = (
+				975E8923FB246B59CD7A794B /* Assembly */,
+				5CAA59C20479571EABAF59CD /* View */,
+				7C754804F36A7B5ABCD09DAD /* Presenter */,
+				BE3F62D2DBFF8B0FA372E07E /* Interactor */,
+				F9733953301C1C1E2AFD7254 /* Router */,
+			);
+			path = MMFirst;
+			sourceTree = "<group>";
+		};
+		EB0FCE7D1E21F98500FCDEC7 = {
+			isa = PBXGroup;
+			children = (
+				EB0FCE881E21F98500FCDEC7 /* SimpleVIPERApp */,
+				EB0FCEA21E21F98500FCDEC7 /* SimpleVIPERAppTests */,
+				EB0FCE871E21F98500FCDEC7 /* Products */,
+				3F12CB89C86A9891D6C1450A /* Pods */,
+				71B274E21A35C646F5C9B69C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0FCE871E21F98500FCDEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FCE861E21F98500FCDEC7 /* SimpleVIPERApp.app */,
+				EB0FCE9F1E21F98500FCDEC7 /* SimpleVIPERAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0FCE881E21F98500FCDEC7 /* SimpleVIPERApp */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FCEB31E22027200FCDEC7 /* ApplicationAssembly.h */,
+				EB0FCEB41E22027200FCDEC7 /* ApplicationAssembly.m */,
+				EB0FCE8C1E21F98500FCDEC7 /* AppDelegate.h */,
+				EB0FCE8D1E21F98500FCDEC7 /* AppDelegate.m */,
+				EB0FCE921E21F98500FCDEC7 /* Main.storyboard */,
+				EB0FCE951E21F98500FCDEC7 /* Assets.xcassets */,
+				EB0FCE971E21F98500FCDEC7 /* LaunchScreen.storyboard */,
+				EB0FCE9A1E21F98500FCDEC7 /* Info.plist */,
+				EB0FCE891E21F98500FCDEC7 /* Supporting Files */,
+				41B8CF4B6E66F4D484D1556D /* modules */,
+			);
+			path = SimpleVIPERApp;
+			sourceTree = "<group>";
+		};
+		EB0FCE891E21F98500FCDEC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FCEB61E22055800FCDEC7 /* README.md */,
+				EB0FCE8A1E21F98500FCDEC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB0FCEA21E21F98500FCDEC7 /* SimpleVIPERAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FCEA31E21F98500FCDEC7 /* SimpleVIPERAppTests.m */,
+				EB0FCEA51E21F98500FCDEC7 /* Info.plist */,
+				DF7E9F04FBA460DC7DFA120E /* MMFirst */,
+			);
+			path = SimpleVIPERAppTests;
+			sourceTree = "<group>";
+		};
+		ED90EB34962DD965362B1918 /* MMFirst */ = {
+			isa = PBXGroup;
+			children = (
+				6886E0D5B84DD08B9AB8FC39 /* Assembly */,
+				C0CE3A21EB732031B0B0AA22 /* View */,
+				B4A416138A5BE216C777CF7F /* Presenter */,
+				5A681CE0E390F0C567A60700 /* Interactor */,
+				2CB5A36D5D5148E059529149 /* Router */,
+			);
+			path = MMFirst;
+			sourceTree = "<group>";
+		};
+		F9733953301C1C1E2AFD7254 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F898760F0D9A4A4F2A25450B /* MMFirstRouterTests.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0FCE851E21F98500FCDEC7 /* SimpleVIPERApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0FCEA81E21F98500FCDEC7 /* Build configuration list for PBXNativeTarget "SimpleVIPERApp" */;
+			buildPhases = (
+				B8F4A5A7494BBB1E52864BD0 /* [CP] Check Pods Manifest.lock */,
+				EB0FCE821E21F98500FCDEC7 /* Sources */,
+				EB0FCE831E21F98500FCDEC7 /* Frameworks */,
+				EB0FCE841E21F98500FCDEC7 /* Resources */,
+				4F8042E0050D4CF5BB37B0D9 /* [CP] Embed Pods Frameworks */,
+				99D83FF5D62E842B76AAF8B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVIPERApp;
+			productName = SimpleVIPERApp;
+			productReference = EB0FCE861E21F98500FCDEC7 /* SimpleVIPERApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0FCE9E1E21F98500FCDEC7 /* SimpleVIPERAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0FCEAB1E21F98500FCDEC7 /* Build configuration list for PBXNativeTarget "SimpleVIPERAppTests" */;
+			buildPhases = (
+				D7E5C916F6C32850813DE709 /* [CP] Check Pods Manifest.lock */,
+				EB0FCE9B1E21F98500FCDEC7 /* Sources */,
+				EB0FCE9C1E21F98500FCDEC7 /* Frameworks */,
+				EB0FCE9D1E21F98500FCDEC7 /* Resources */,
+				2A515ADE7156F63DDB212AF0 /* [CP] Embed Pods Frameworks */,
+				756BA1BE85D43C1DE3536D6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0FCEA11E21F98500FCDEC7 /* PBXTargetDependency */,
+			);
+			name = SimpleVIPERAppTests;
+			productName = SimpleVIPERAppTests;
+			productReference = EB0FCE9F1E21F98500FCDEC7 /* SimpleVIPERAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0FCE7E1E21F98500FCDEC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MadMagCompany;
+				TargetAttributes = {
+					EB0FCE851E21F98500FCDEC7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = STZB53GU8R;
+						ProvisioningStyle = Automatic;
+					};
+					EB0FCE9E1E21F98500FCDEC7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = STZB53GU8R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB0FCE851E21F98500FCDEC7;
+					};
+				};
+			};
+			buildConfigurationList = EB0FCE811E21F98500FCDEC7 /* Build configuration list for PBXProject "SimpleVIPERApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0FCE7D1E21F98500FCDEC7;
+			productRefGroup = EB0FCE871E21F98500FCDEC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0FCE851E21F98500FCDEC7 /* SimpleVIPERApp */,
+				EB0FCE9E1E21F98500FCDEC7 /* SimpleVIPERAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0FCE841E21F98500FCDEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0FCE991E21F98500FCDEC7 /* LaunchScreen.storyboard in Resources */,
+				EB0FCE961E21F98500FCDEC7 /* Assets.xcassets in Resources */,
+				EB0FCE941E21F98500FCDEC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0FCE9D1E21F98500FCDEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A515ADE7156F63DDB212AF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVIPERAppTests/Pods-SimpleVIPERAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8042E0050D4CF5BB37B0D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVIPERApp/Pods-SimpleVIPERApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756BA1BE85D43C1DE3536D6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVIPERAppTests/Pods-SimpleVIPERAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D83FF5D62E842B76AAF8B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVIPERApp/Pods-SimpleVIPERApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F4A5A7494BBB1E52864BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E5C916F6C32850813DE709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0FCE821E21F98500FCDEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0FCE8E1E21F98500FCDEC7 /* AppDelegate.m in Sources */,
+				EB0FCE8B1E21F98500FCDEC7 /* main.m in Sources */,
+				EA08E7A7FB51F20C0100AF37 /* MMFirstAssembly.m in Sources */,
+				D6B3150F4DBFD8E863C8F530 /* MMFirstViewController.m in Sources */,
+				EB0FCEB51E22027200FCDEC7 /* ApplicationAssembly.m in Sources */,
+				345CE38929D2C6B7F18DE5F9 /* MMFirstPresenter.m in Sources */,
+				EB0FCEB71E22055800FCDEC7 /* README.md in Sources */,
+				B5E96A0131165D2AEC420579 /* MMFirstInteractor.m in Sources */,
+				F1663E6405BDBA1453706A0B /* MMFirstRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0FCE9B1E21F98500FCDEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0FCEA41E21F98500FCDEC7 /* SimpleVIPERAppTests.m in Sources */,
+				8642CEB304E6F21C8DACC8BD /* MMFirstAssemblyTests.m in Sources */,
+				4E1230440EFE44B5C77363F0 /* MMFirstViewControllerTests.m in Sources */,
+				58DD0715D925ACC97A1376CF /* MMFirstPresenterTests.m in Sources */,
+				6D9C799DD2142AD126BE0CA3 /* MMFirstInteractorTests.m in Sources */,
+				BAAB2B0DFB6270D939460451 /* MMFirstRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0FCEA11E21F98500FCDEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0FCE851E21F98500FCDEC7 /* SimpleVIPERApp */;
+			targetProxy = EB0FCEA01E21F98500FCDEC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0FCE921E21F98500FCDEC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0FCE931E21F98500FCDEC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB0FCE971E21F98500FCDEC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0FCE981E21F98500FCDEC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0FCEA61E21F98500FCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB0FCEA71E21F98500FCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB0FCEA91E21F98500FCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8374059ACB2645B5ABD7A4B /* Pods-SimpleVIPERApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STZB53GU8R;
+				INFOPLIST_FILE = SimpleVIPERApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadMagCompany.SimpleVIPERApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB0FCEAA1E21F98500FCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B131C64ED96639BB90E8B38 /* Pods-SimpleVIPERApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STZB53GU8R;
+				INFOPLIST_FILE = SimpleVIPERApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadMagCompany.SimpleVIPERApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB0FCEAC1E21F98500FCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D794A4115760B765F67AC73 /* Pods-SimpleVIPERAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = STZB53GU8R;
+				INFOPLIST_FILE = SimpleVIPERAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadMagCompany.SimpleVIPERAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVIPERApp.app/SimpleVIPERApp";
+			};
+			name = Debug;
+		};
+		EB0FCEAD1E21F98500FCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F2D19E5B3FEEF281DEBDF3 /* Pods-SimpleVIPERAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = STZB53GU8R;
+				INFOPLIST_FILE = SimpleVIPERAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadMagCompany.SimpleVIPERAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVIPERApp.app/SimpleVIPERApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0FCE811E21F98500FCDEC7 /* Build configuration list for PBXProject "SimpleVIPERApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0FCEA61E21F98500FCDEC7 /* Debug */,
+				EB0FCEA71E21F98500FCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0FCEA81E21F98500FCDEC7 /* Build configuration list for PBXNativeTarget "SimpleVIPERApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0FCEA91E21F98500FCDEC7 /* Debug */,
+				EB0FCEAA1E21F98500FCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0FCEAB1E21F98500FCDEC7 /* Build configuration list for PBXNativeTarget "SimpleVIPERAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0FCEAC1E21F98500FCDEC7 /* Debug */,
+				EB0FCEAD1E21F98500FCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0FCE7E1E21F98500FCDEC7 /* Project object */;
+}

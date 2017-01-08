@@ -1,0 +1,12 @@
+{% include 'header' %}
+
+#import <UIKit/UIKit.h>
+#import <RETableViewManager/RETableViewManager.h>
+#import "{{ prefix }}{{ module_info.name }}CellPresenter.h"
+
+@interface {{ prefix }}{{ module_info.name }}TableViewCell : RETableViewCell
+
+@property (strong, readwrite, nonatomic) {{ prefix }}{{ module_info.name }}CellPresenter *item;
+
+@property (weak, nonatomic) IBOutlet UIImageView *background;
+@end

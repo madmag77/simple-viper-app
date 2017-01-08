@@ -1,0 +1,7 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+@class RETableViewManager;
+@protocol {{ prefix }}{{ module_info.name }}InteractorInput <NSObject>
+- (void) setTableViewManager:(RETableViewManager*)manager;
+@end

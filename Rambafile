@@ -1,0 +1,37 @@
+### Headers settings
+company: MadMagCompany
+
+### Xcode project settings
+project_name: SimpleVIPERApp
+xcodeproj_path: SimpleVIPERApp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: SimpleVIPERApp
+
+# The file path for new modules
+project_file_path: SimpleVIPERApp/modules
+
+# The Xcode group path to new modules
+project_group_path: SimpleVIPERApp/modules
+
+### Tests generation settings section
+# The tests target name
+test_target: SimpleVIPERAppTests
+
+# The file path for new tests
+test_file_path: SimpleVIPERAppTests
+
+# The Xcode group path to new tests
+test_group_path: SimpleVIPERAppTests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/rambler-ios/generamba-catalog'
+templates:
+- {name: rviper_controller}
+- {name: rviper_table_controller}
+- {name: local_template_name, local: 'absolute/file/path'}

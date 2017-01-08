@@ -1,0 +1,8 @@
+{% include 'header' %}
+
+#import <RETableViewManager/RETableViewManager.h>
+#import "{{ prefix }}{{ module_info.name }}Model.h"
+
+@interface {{ prefix }}{{ module_info.name }}CellPresenter : RETableViewItem
+@property (strong, readwrite, nonatomic) {{ prefix }}{{ module_info.name }}Model *model;
+@end

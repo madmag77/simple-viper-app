@@ -1,0 +1,118 @@
+{% include 'header' %}
+
+#import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
+
+#import "{{ prefix }}{{ module_info.name }}Presenter_Testable.h"
+
+#import "{{ prefix }}{{ module_info.name }}ViewInput.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorInput.h"
+#import "{{ prefix }}{{ module_info.name }}RouterInput.h"
+#import <RETableViewManager/RETableViewManager.h>
+#import "WaitBarProtocol.h"
+
+@interface {{ prefix }}{{ module_info.name }}PresenterTests : XCTestCase
+
+@property (nonatomic, strong) {{ prefix }}{{ module_info.name }}Presenter *presenter;
+
+@property (nonatomic, strong) id mockInteractor;
+@property (nonatomic, strong) id mockRouter;
+@property (nonatomic, strong) id mockView;
+@property (nonatomic, strong) id mockWaitObj;
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}PresenterTests
+
+#pragma mark - Настройка окружения для тестирования
+
+- (void)setUp {
+    [super setUp];
+
+    self.presenter = [[{{ prefix }}{{ module_info.name }}Presenter alloc] init];
+
+    self.mockInteractor = OCMProtocolMock(@protocol({{ prefix }}{{ module_info.name }}InteractorInput));
+    self.mockRouter = OCMProtocolMock(@protocol({{ prefix }}{{ module_info.name }}RouterInput));
+    self.mockView = OCMProtocolMock(@protocol({{ prefix }}{{ module_info.name }}ViewInput));
+    self.mockWaitObj = OCMProtocolMock(@protocol(WaitBarProtocol));
+
+    self.presenter.interactor = self.mockInteractor;
+    self.presenter.router = self.mockRouter;
+    self.presenter.view = self.mockView;
+    self.presenter.wait = self.mockWaitObj;
+}
+
+- (void)tearDown {
+    self.presenter = nil;
+
+    self.mockView = nil;
+    self.mockRouter = nil;
+    self.mockInteractor = nil;
+    self.mockWaitObj = nil;
+
+    [super tearDown];
+}
+
+#pragma mark - Тестирование методов {{ prefix }}{{ module_info.name }}ModuleInput
+
+#pragma mark - Тестирование методов {{ prefix }}{{ module_info.name }}ViewOutput
+
+- (void)testThatPresenterHandlesViewReadyEvent {
+    // given
+
+
+    // when
+    [self.presenter didTriggerViewReadyEvent];
+
+    // then
+    OCMVerify([self.mockView setupInitialState]);
+}
+
+- (void)testThatPresenterTransferTableViewManagerToInteractor {
+    // given
+    RETableViewManager *tableViewManager = [[RETableViewManager alloc] initWithTableView:[UITableView new]];
+    
+    // when
+    [self.presenter setTableViewManager:tableViewManager];
+    
+    // then
+    OCMVerify([self.mockInteractor setTableViewManager:tableViewManager]);
+}
+
+- (void)testThatPresenterTransferBackBtnTapToRouter {
+    // given
+
+    
+    // when
+    [self.presenter backBtnTap];
+    
+    // then
+    OCMVerify([self.mockRouter goBack]);
+}
+
+
+#pragma mark - Тестирование методов {{ prefix }}{{ module_info.name }}InteractorOutput
+
+- (void)testThatPresenterTransferProgressShow {
+    // given
+    
+    
+    // when
+    [self.presenter progressShow];
+    
+    // then
+    OCMVerify([self.mockWaitObj showWaitBar]);
+}
+
+- (void)testThatPresenterTransferProgressDissmiss {
+    // given
+    
+    
+    // when
+    [self.presenter progressDismiss];
+    
+    // then
+    OCMVerify([self.mockWaitObj dissmissWaitBar]);
+}
+
+@end

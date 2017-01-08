@@ -1,0 +1,41 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Presenter.h"
+#import "{{ prefix }}{{ module_info.name }}ViewInput.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorInput.h"
+#import "{{ prefix }}{{ module_info.name }}RouterInput.h"
+#import "RETableViewManager.h"
+
+@implementation {{ prefix }}{{ module_info.name }}Presenter
+
+#pragma mark - Методы {{ prefix }}{{ module_info.name }}ModuleInput
+
+- (void)configureModule {
+    // Стартовая конфигурация модуля, не привязанная к состоянию view
+}
+
+#pragma mark - Методы {{ prefix }}{{ module_info.name }}ViewOutput
+
+- (void) viewWillApear {
+}
+
+- (void) setTableViewManager:(RETableViewManager*)manager {
+    [self.interactor setTableViewManager:manager];
+}
+
+- (void)didTriggerViewReadyEvent {
+	[self.view setupInitialState];
+}
+
+- (void)backBtnTap {
+    [self.router goBack];
+}
+#pragma mark - Методы {{ prefix }}{{ module_info.name }}InteractorOutput
+-(void) progressShow {
+    [self.wait showWaitBar];
+}
+
+-(void) progressDismiss {
+    [self.wait dissmissWaitBar];
+}
+@end

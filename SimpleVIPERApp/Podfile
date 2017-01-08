@@ -1,0 +1,35 @@
+platform :ios, '9.0'
+use_frameworks!
+	
+	target 'CareManagerNavigator' do
+	 	pod 'AFNetworking'
+		pod 'RamblerTyphoonUtils/AssemblyCollector'
+		pod 'ViperMcFlurry'
+		pod 'FMDB/SQLCipher'
+		pod 'SSZipArchive'
+		pod 'tarkit',  :git => 'https://github.com/madmag77/tarkit'
+		pod 'TransitionKit', '~> 2.0.0'
+		pod 'FMDBMigrationManager'
+		pod 'SVProgressHUD'
+		pod 'Masonry'
+		pod 'JSONModel'
+		pod 'TWMessageBarManager'
+		pod 'RETableViewManager', :git => 'https://github.com/madmag77/RETableViewManager'
+		pod 'CocoaLumberjack'
+		pod 'ActionSheetPicker-3.0'
+		pod 'UIVHFormPod', :path => '../UIVHFormPod'
+		pod 'Typhoon'
+
+	  target "CareManagerNavigatorTests" do
+	  	inherit! :search_paths
+	 	pod 'OCMock', '~> 3.1'
+		pod 'MMBarricade', '~> 1.0.1'
+        pod 'RamblerTyphoonUtils/AssemblyTesting'
+        pod 'Typhoon'
+        pod 'Specta'
+        pod 'Expecta'
+	  end
+	end
+
+
+

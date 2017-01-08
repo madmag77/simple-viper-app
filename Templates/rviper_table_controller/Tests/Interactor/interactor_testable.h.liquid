@@ -1,0 +1,12 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Interactor.h"
+
+@class RETableViewManager;
+
+@interface {{ prefix }}{{ module_info.name }}Interactor ()
+
+@property (weak) RETableViewManager* manager;
+
+@end
+
